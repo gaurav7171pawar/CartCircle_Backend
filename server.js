@@ -14,7 +14,7 @@ import orderRoutes from './routes/orderRoutes.js';
 dotenv.config();
 const app = express();
 app.use(cors({
-  origin: ["https://shop-with-buddies-frontend.vercel.app", "http://localhost:5173", "http://localhost:8080"],
+  origin: ["https://cart-circle-frontend.vercel.app/", "http://localhost:5173", "http://localhost:8080"],
   methods: ["GET", "POST"],
   credentials: true
 }));
